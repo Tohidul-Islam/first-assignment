@@ -1,11 +1,12 @@
 body {
     font-family: 'Kanit', sans-serif;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin: 0px;
+    padding: 0px;
 }
 
 section {
     padding: 55px 0px;
+    margin: 0px;
 }
 
 h1 {
@@ -18,6 +19,9 @@ p {
     font-size: 18px;
     font-weight: 300;
 }
+
+
+
 
 .hero-text {
     border-left: 5px solid blue;
@@ -49,6 +53,8 @@ p {
 
 .header {
     display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .half {
@@ -57,6 +63,7 @@ p {
 }
 
 /*----mission start---*/
+
 
 .title h1 {
     text-align: center;
@@ -71,6 +78,8 @@ p {
 .mission {
     display: flex;
     margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .missiondiv img {
@@ -94,4 +103,85 @@ p {
 
 .missiondiv:last-child {
     background-color: rgb(237, 227, 255);
+}
+
+/*---Develop area-----*/
+.develop {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.develop-img-bg {
+    background-image: url(images/shapes/develop.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 6rem;
+}
+
+.develop img {
+    width: 80%;
+
+}
+
+.develop h1 {
+    font-size: 55px;
+}
+
+/*----community area start----*/
+
+.communties {
+    display: flex;
+    padding-bottom: 55px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.community-bg-img {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 90% 95%;
+    background-size: 20%;
+
+}
+
+.communties img {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.communties h1 {
+    font-size: 55px;
+}
+
+/*----contact area start----*/
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(10, 25, 243, 0.2)), url(images/pictures/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-area {
+    margin: 5px 20rem;
+    text-align: center;
+    color: white;
+}
+
+.contact-area h1 {
+    font-size: 55px;
+}
+
+/*-footer area start--*/
+footer {
+    background-color: black;
+    padding: 25px 10px;
+    color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 55px;
 }
